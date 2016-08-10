@@ -7,8 +7,8 @@
  }
 
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid black;
+    border-bottom: 1px solid $brand-color;
     background-color: $header-footer-color;
     min-height: 56px;
 
@@ -120,7 +120,7 @@
     color: $brand-color;
     letter-spacing: 0.2em;
 
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
     position: absolute;
     right: 0;
@@ -154,19 +154,16 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+.footer-col-2 {
+    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+    width:         calc(60% - (#{$spacing-unit} / 2));
 }
+
+
 
 @include media-query($on-laptop) {
     .footer-col-1,
@@ -207,12 +204,12 @@
     list-style: none;
 
     > li {
+        text-transform: uppercase;
         margin-bottom: $spacing-unit;
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
     color: $grey-color;
 }
 
@@ -243,7 +240,8 @@
 }
 
 .post-content {
-
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-weight: 400;
     margin-bottom: $spacing-unit;
 
     h2 {
