@@ -230,8 +230,8 @@
     color: $brand-color;
     text-transform: uppercase;
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
+    letter-spacing: 0.2em;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -270,12 +270,18 @@
 
 .home {
   border-radius: 25px;
+  border-color: $brand-color;
+  border-width: thin;
+  border-style: solid;
   padding: 20px;
   background-color: black;
 }
 
 .post {
   border-radius: 25px;
+  border-color: $brand-color;
+  border-width: thin;
+  border-style: solid;
   padding: 20px;
   background-color: black;
 }
