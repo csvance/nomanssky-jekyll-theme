@@ -131,12 +131,6 @@
     font-size: 18px;
 }
 
-.contact-list,
-.social-media-list,
- {
-   width: 150px;
-}
-
 .footer-col-wrapper {
     font-size: 15px;
 
@@ -147,6 +141,8 @@
 .footer-col {
     float: left;
     padding-left: $spacing-unit / 2;
+    text-align: center;
+    float: none;
 }
 
 .footer-col-1 {

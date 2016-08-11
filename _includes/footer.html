@@ -3,14 +3,9 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1 social-media-list">
-        <div class="social-media-list"
-            {% include icon-twitter.html username=site.twitter_username %}
-          </div>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <div>{{ site.description }}</div>
+      <div class="footer-col">
+            {% include icon-twitter.html username=site.twitter_username %} |
+            {{ site.description }}
       </div>
     </div>
 
