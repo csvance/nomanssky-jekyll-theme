@@ -8,10 +8,12 @@
 # Site settings
 title: Captain's Log
 description: >
-  Sundial's No Man's Sky Captain's Log!
+  Sundial's No Man's Sky Captain's Log
 baseurl: ""
 url: "http://captainslog.flyingtuttys.com" # the base hostname & protocol for your site
 twitter_username: sundial_o7
+gems: [jekyll-paginate]
+paginate: 5
 
 # Build settings
 markdown: kramdown
