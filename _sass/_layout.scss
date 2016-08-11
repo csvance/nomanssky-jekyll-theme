@@ -203,16 +203,25 @@
     > li {
         text-transform: uppercase;
         margin-bottom: $spacing-unit;
+
     }
 }
 
 .post-meta {
     color: $grey-color;
+    text-align: center;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+
+    text-transform: uppercase;
+    font-family: nms;
+    color: $brand-color;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
 
 
@@ -230,6 +239,14 @@
     font-size: 42px;
     line-height: 1;
     letter-spacing: 0.2em;
+
+    text-transform: uppercase;
+    font-family: nms;
+    color: $brand-color;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 36px;
