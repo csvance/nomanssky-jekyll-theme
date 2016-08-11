@@ -19,7 +19,7 @@ body {
     background-color: $background-color;
     background-image: $background-image;
     background-position :$background-position;
-    background-size: 100% 100%;
+    background-size: $background-size;
     background-attachment: fixed;
 
     -webkit-text-size-adjust: 100%;

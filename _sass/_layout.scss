@@ -195,6 +195,7 @@
  * Page content
  */
 .page-content {
+  margin-top: 46px;
     padding: $spacing-unit 0;
 }
 
@@ -203,6 +204,7 @@
 }
 
 .post-list {
+
     margin-left: 0;
     list-style: none;
 
@@ -303,7 +305,6 @@
   border-color: $brand-color;
   border-width: thin;
   border-style: solid;
-  margin-top: 46px;
   padding: 20px;
   background-color: black;
 }
